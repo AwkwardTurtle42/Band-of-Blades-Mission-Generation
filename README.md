@@ -21,7 +21,9 @@ location = the location you are currently at in Aldermark, which restricts which
 
 To create missions for my group which just arrived in Plainsworth, with the Commander looking for Supply missions (I agreed) I used:
 
+```python
 genMissions(commander_focus = 'Supply', GM_choice = 'Supply',location = 'plainsworth')
+```
 
 Which output:
 
@@ -46,7 +48,9 @@ Penalties: -1 Morale, +1 Pressure
 
 If I wanted to generate a single mission details, for instance if I wanted to change the GM choice after I saw what was generated automatically, I'd use
 
+```python
 details(commander_focus = 'Religious')
+```
 
 ## Functions:
 
