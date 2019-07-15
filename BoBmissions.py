@@ -136,20 +136,5 @@ def genMissions(commander_focus = 'Assault',GM_choice = 'Assault',augmented=Fals
 			print("Mission {}: Operation {}\n{} Mission. Type: {}\nRewards: {}\nPenalties: {}".format(i+1,missionName(),mtype,*mission))
 
 
-
-# Switches: 
-# commander_focus = 'Assault', 'Recon', 'Religious', or 'Supply'
-# GM_choice = 'Assault', 'Recon', 'Religious', or 'Supply'
-#    To set the commander focus and which mission type the GM will choose
-# Intel = True
-#    If the commander spent Intel to pick a special mission
-# augmented = True
-#    If the Spymaster has augmented the mission
-# location = 'insert location here'
-#    To restrict available mission types by location
-
 ## To generate missions
 genMissions(commander_focus = 'Supply', GM_choice = 'Supply',location='plainsworth')
-
-## To generate one mission of a specific type
-# details('Assault',Augmented=True)
