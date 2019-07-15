@@ -1,7 +1,21 @@
 # Band-of-Blades-Mission-Generation
 
 Python script to generate missions for the Band of Blades role playing game.
-All description and content taken from the Band of Blades rulebook by 
+All description and content taken from the Band of Blades rulebook.
+
+## To use:
+
+Run the genMissions() function. Options are: 
+
+commander_focus which can be ('Assault', 'Recon', 'Religious', or 'Supply')
+
+GM_choice which can be ('Assault', 'Recon', 'Religious', or 'Supply')
+
+Set augmented=True if the Spymaster has augmented the mission generation.
+
+Set intel=True if the Commander has spent intel.
+
+location = the location you are currently at in Aldermark, which restricts which missions are available.
 
 ## Functions:
 
