@@ -17,6 +17,34 @@ Set intel=True if the Commander has spent intel.
 
 location = the location you are currently at in Aldermark, which restricts which missions are available.
 
+#### Example:
+
+To create missions for my group which just arrived in Plainsworth, with the Commander looking for Supply missions (I agreed) I used:
+
+genMissions(commander_focus = 'Supply', GM_choice = 'Supply',location = 'plainsworth')
+
+Which output:
+
+<pre>
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Mission 1: Operation Crimson Peak
+Grants Mercy Favor.
+Supply Mission. Type: Scrounge or Trade
+Rewards: +2 Supply
+Penalties: -1 Morale
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Mission 2: Operation Diamond Hawk
+Recon Mission. Type: Infiltration
+Rewards: +2 Intel
+Penalties: None
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Mission 3: Operation Screaming Thorn
+Religious Mission. Type: Defense
+Rewards: +2 Morale +10 Points
+Penalties: -1 Morale, +1 Pressure
+</pre>
+
+
 ## Functions:
 
 #### missionName()
