@@ -44,6 +44,9 @@ Rewards: +2 Morale +10 Points
 Penalties: -1 Morale, +1 Pressure
 </pre>
 
+If I wanted to generate a single mission details, for instance if I wanted to change the GM choice after I saw what was generated automatically, I'd use
+
+details(commander_focus = 'Religious')
 
 ## Functions:
 
